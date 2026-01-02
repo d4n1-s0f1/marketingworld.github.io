@@ -985,3 +985,14 @@ footer {
         flex-direction: column;
     }
 }
+
+.tecnologia-imagen img {
+    width: 500px;        /* tamaño de la imagen */
+    max-width: 100%;     /* evita que se desborde */
+    height: auto;        /* mantiene proporción */
+}
+
+.tecnologia-imagen {
+    display: flex;
+    justify-content: center;
+}
